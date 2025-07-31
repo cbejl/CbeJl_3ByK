@@ -1,0 +1,18 @@
+#имя бирки чтобы замьютить моба
+mute_nametags:
+  - "mute"
+  - "silent"
+  - "ЦЫЦ"
+
+#айдишник предмета для размута моба (пкм предметом по замьюченному мобу для размьюта)
+unmute_items:
+  - "minecraft:goat_horn"
+
+#если true - то имя моба не будет сменено при мьюте. тобиш моб замьютится, но не сменит имя на %mute_nametags%
+cancel_rename_event: true
+
+#мобы которых нельзя замьютить
+mute_blacklist:
+  - "minecraft:wither"
+  - "minecraft:ender_dragon"
+  - "minecraft:creeper"

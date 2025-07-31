@@ -1,0 +1,7 @@
+name: CbeJl_3ByK
+version: '1.0'
+main: cbejl.plugins.cbeJl_3ByK.CbeJl_3ByK
+api-version: '1.21'
+prefix: CbeJl_3ByK
+authors: [ CbeJl_Tpycbl ]
+description: Плагин для мута мобов при помощи бирки!
