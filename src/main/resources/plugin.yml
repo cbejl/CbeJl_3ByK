@@ -1,7 +1,17 @@
 name: CbeJl_3ByK
-version: '1.0'
+version: '1.1'
 main: cbejl.plugins.cbeJl_3ByK.CbeJl_3ByK
 api-version: '1.21'
 prefix: CbeJl_3ByK
 authors: [ CbeJl_Tpycbl ]
 description: Плагин для мута мобов при помощи бирки!
+permissions:
+  cbejl_3byk.reload:
+    description: "Permission to reload plugin config"
+    default: op
+commands:
+  cbejlzvuk:
+    description: "use /cbejlzvuk reload to reload plugin configuration"
+    usage: "/cbejlzvuk reload"
+    permission: cbejl_3byk.reload
+    permission-message: "§4ЦЫЦ"

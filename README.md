@@ -24,3 +24,6 @@ Easy mob-mute plugin for your server <sub>*(developed and tested on paper 1.21.7
 - ```unmute_items``` - items for unmute mobs by right-click
 - ```cancel_rename_event``` - should plugin cancel the name change of the mob when muting? (if true - mob don`t change name on mute)
 - ```mute_blacklist``` - the list of mobs that cannot be muted by the plugin
+
+
+- ```/cbejlzvuk reload``` - command to reload config, require permission **cbejl_3byk.reload**

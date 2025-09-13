@@ -11,6 +11,7 @@ import net.kyori.adventure.text.format.TextColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerInteractAtEntityEvent;
+import org.bukkit.permissions.ServerOperator;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.ArrayList;
@@ -24,6 +25,7 @@ public final class CbeJl_3ByK extends JavaPlugin implements Listener {
 
     private final LiteralCommandNode<CommandSourceStack> root = Commands
             .literal("cbejlzvuk")
+            .requires(sender -> sender.getSender().isOp() || sender.getSender().hasPermission("cbejl_3byk.reload"))
             .then(
                     Commands.literal("reload")
                             .executes((ctx) -> {
